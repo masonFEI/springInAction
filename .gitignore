@@ -1,0 +1,10 @@
+# ===== Maven 构建产物 =====
+# target/ 下全部是编译输出（classes、maven-status、surefire-reports 等），不应纳入版本管理
+target/
+
+# ===== IDEA =====
+.idea/
+*.iml
+
+# ===== 日志文件 =====
+*.log
