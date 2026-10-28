@@ -20,7 +20,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class TestUser {
 
     // 创建logger
-    private Logger logger = LoggerFactory.getLogger(TestUser.class);
+    private final Logger logger = LoggerFactory.getLogger(TestUser.class);
 
     @Test
     public void testUserObject() {
@@ -33,7 +33,7 @@ public class TestUser {
         // 使用对象调用方法进行测试
         user.add();
 
-        // 👌写日志
+        // 写日志
         logger.info("### 执行调用成功了......");
 
     }
