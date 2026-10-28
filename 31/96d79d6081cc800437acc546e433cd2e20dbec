@@ -1,0 +1,21 @@
+spring-first/src/main/java/com/fxy/spring6/TestUser.java
+  h_996c2add31e3eb 23
+  h_e501752fc60351 36
+spring-first/pom.xml
+  h_996c2add31e3eb 40
+  h_e501752fc60351 21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "3196d79d6081cc800437acc546e433cd2e20dbec",
+  "prompts": {},
+  "humans": {
+    "h_996c2add31e3eb": {
+      "author": "feixuanyu <johnny.fei@ly.com>"
+    },
+    "h_e501752fc60351": {
+      "author": "masonFEI <994085848@qq.com>"
+    }
+  }
+}
