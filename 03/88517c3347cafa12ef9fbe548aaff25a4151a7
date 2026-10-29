@@ -1,0 +1,34 @@
+spring6-ioc-xml/src/main/resources/bean.xml
+  h_e501752fc60351 1-14
+spring6-ioc-xml/src/main/java/com/fxy/spring6/iocxml/bean/TestUserDao.java
+  h_e501752fc60351 1-32
+spring6-ioc-xml/src/main/java/com/fxy/spring6/iocxml/bean/PersonUserDaoImpl.java
+  h_e501752fc60351 1-20
+spring6-ioc-xml/src/main/java/com/fxy/spring6/iocxml/TestUser.java
+  h_e501752fc60351 1-36
+spring6-ioc-xml/pom.xml
+  h_e501752fc60351 1-20
+spring6-ioc-xml/src/main/java/com/fxy/spring6/iocxml/bean/UserDao.java
+  h_e501752fc60351 1-18
+spring6-ioc-xml/src/main/java/com/fxy/spring6/iocxml/bean/UserDaoImpl.java
+  h_e501752fc60351 1-20
+笔记.md
+  h_e501752fc60351 43-46
+pom.xml
+  h_e501752fc60351 13,22-51
+spring6-ioc-xml/src/main/java/com/fxy/spring6/iocxml/User.java
+  h_e501752fc60351 1-24
+spring6-ioc-xml/src/main/resources/log4j2.xml
+  h_e501752fc60351 1-35
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "0388517c3347cafa12ef9fbe548aaff25a4151a7",
+  "prompts": {},
+  "humans": {
+    "h_e501752fc60351": {
+      "author": "masonFEI <994085848@qq.com>"
+    }
+  }
+}
