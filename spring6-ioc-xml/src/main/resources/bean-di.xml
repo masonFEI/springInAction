@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- 基于set方法注入   -->
-    <bean id="book" class="com.fxy.spring6.iocxml.di.Book">
+    <bean id="book" class="com.fxy.spring6.iocxml.di.Book" destroy-method="">
         <property name="bname" value="java"/>
         <property name="author" value="华杉"/>
         <property name="others">
