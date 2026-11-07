@@ -2,7 +2,7 @@
  * LY.com Inc.
  * Copyright (c) 2004-2026 All Rights Reserved.
  */
-package com.fxy.bean;
+package com.atguigu.bean;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -29,7 +29,15 @@ public class AnnotationApplicationContext implements ApplicationContext {
     // 当前包及其子包，哪个类有@Bean注解，把这个类通过反射实例化
     // 创建有参构造，传递包路径
     public AnnotationApplicationContext(String basePackage) {
+        // 1. 把.替换成\
+        String packagePath = basePackage.replaceAll("\\.", "\\\\");
+        // 2. 获取包绝对路径
+        //
+    }
 
+
+    public static void main() {
+        ApplicationContext context = new AnnotationApplicationContext("com.atguigu");
     }
 
 }

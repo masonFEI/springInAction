@@ -2,9 +2,9 @@
  * LY.com Inc.
  * Copyright (c) 2004-2026 All Rights Reserved.
  */
-package com.fxy.service.impl;
+package com.atguigu.service.impl;
 
-import com.fxy.service.UserService;
+import com.atguigu.service.UserService;
 
 /**
  * UserServiceImpl
