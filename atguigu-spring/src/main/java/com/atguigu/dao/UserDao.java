@@ -12,4 +12,7 @@ package com.atguigu.dao;
  * @since 2026-11-07 12:28
  */
 public interface UserDao {
+
+    void add();
+
 }

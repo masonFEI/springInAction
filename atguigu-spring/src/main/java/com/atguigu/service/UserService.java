@@ -12,4 +12,8 @@ package com.atguigu.service;
  * @since 2026-11-07 12:24
  */
 public interface UserService {
+
+
+    void add();
+
 }
