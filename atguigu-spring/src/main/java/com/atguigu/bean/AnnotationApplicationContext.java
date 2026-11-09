@@ -8,11 +8,10 @@ import com.atguigu.anno.Bean;
 import com.atguigu.anno.Di;
 
 import java.io.File;
-import java.io.IOException;
 import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
 import java.net.URL;
 import java.net.URLDecoder;
+import java.nio.charset.StandardCharsets;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Map;
@@ -47,7 +46,7 @@ public class AnnotationApplicationContext implements ApplicationContext {
         Enumeration<URL> urls = Thread.currentThread().getContextClassLoader().getResources(packagePath);
         while (urls.hasMoreElements()) {
             URL url = urls.nextElement();
-            String filePath = URLDecoder.decode(url.getFile(), "utf-8");
+            String filePath = URLDecoder.decode(url.getFile(), StandardCharsets.UTF_8);
 
             // 获取包前面路径部分，字符串截取
             rootPath = filePath.substring(0, filePath.length() - packagePath.length());
@@ -66,15 +65,15 @@ public class AnnotationApplicationContext implements ApplicationContext {
         //1. 判断当前是否是文件夹
         if (file.isDirectory()) {
             //2. 获取文件夹里面所有内容
-            File[] childrenfiles = file.listFiles();
+            File[] childrenFiles = file.listFiles();
 
             //3. 判断文件夹里面为空，直接返回
-            if (childrenfiles == null || childrenfiles.length == 0) {
+            if (childrenFiles == null || childrenFiles.length == 0) {
                 return;
             }
 
             //4. 如果文件夹里面不为空，遍历文件夹所有内容
-            for (File child : childrenfiles) {
+            for (File child : childrenFiles) {
                 //4.1 遍历得到每个File对象，继续判断，如果还是文件夹，递归
                 if (child.isDirectory()) {
                     // 递归
