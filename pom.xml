@@ -74,6 +74,12 @@
             <version>2.1.1</version>
         </dependency>
 
+        <!--    jakarta 校验 API：@NotNull / @Min / @Max 等 JSR-380 约束注解（Spring 6 使用 jakarta 命名空间）    -->
+        <dependency>
+            <groupId>jakarta.validation</groupId>
+            <artifactId>jakarta.validation-api</artifactId>
+            <version>3.0.2</version>
+        </dependency>
 
     </dependencies>
 
